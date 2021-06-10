@@ -1,0 +1,772 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: .0rem;
+}
+
+.navbar{
+    background-color:rgb(255, 255, 255);
+    overflow: hidden;
+    height: 7.5rem;
+}
+#tree a{
+    margin-left: 15.0rem;
+    font-size: 2.5rem;
+    text-decoration: none;
+    padding: 2.5rem;
+    float: left;
+    text-align: center;
+    color:rgb(92, 87, 87);
+   
+}
+
+.navbar nav{
+    margin-right: 15.0rem;
+}
+nav a {
+    width: 7%;
+    font-size: 1.5rem;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+    padding-top: 3.0rem;
+    padding-bottom: 2.5rem;
+    float: right;
+    text-align: center;
+    color: #387bab
+    
+}
+
+.trial{margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+    border-radius:.4rem;
+    padding: .5rem 1.0rem;
+    background: #008298;
+    color: white;
+    
+}
+
+.image{
+    background-image: url(tree.jpg); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+    height: 52.5rem;
+    position: relative;
+    text-align: center;
+    color: white;
+}
+ .image p{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-top: 10.0rem;
+ }
+
+ .image h1{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 2.0rem;
+    margin-top: 5.0rem;
+     
+ }
+ .image h2{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 5.0rem;
+    margin-top: 2.0rem;
+ }
+
+ .card {
+     margin-right: 40.0rem;
+     margin-left: 40.0rem;
+    position: relative;
+    width: 50%;
+    height: 15.0rem;
+    display: flex;
+    flex-direction: column;
+    border: .1rem rgb(216, 202, 202) solid;
+    background-color: white;
+    text-align: center;
+    border-radius: .5rem;
+    overflow: visible;
+}
+
+.header {padding-top: 1.0rem;
+    border-radius: .5rem;
+    height: 7.0rem;
+    background: rgb(66, 62, 62);
+    color: white;
+    text-align: center;
+}
+
+.header p span{
+    font-family: 'Gotham Rounded', sans-serif ;
+    font-size: 2.0rem;
+}
+
+
+.container{
+    background-color: white;
+}
+
+.email{
+    color: #40484a;
+    font-weight: 500;
+    margin-top: 10.0rem;
+}
+.address{
+    font-family:  'Gotham Rounded', sans-serif;
+    padding-bottom: .5rem;
+    margin-left: 4.0rem;
+    margin-top: 5.0rem;
+    text-align: left;
+}
+ 
+.input{
+    margin-top: .0rem;
+    margin-left: 2.5rem;
+    padding: 1.2rem 1.5rem;
+    width: 40.0rem;
+    height: 1.5rem;
+    border-color: rgb(230, 220, 219);
+}
+
+.submit{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 1.5rem;
+    margin-top: .0rem;
+    margin-bottom: 2.0rem;
+    margin-right: 4.0rem;
+    border-radius:.4rem;
+    padding: 1.0rem 8.0rem;
+    background: #008298;
+    color: white;
+    float: right;
+}
+.submit:hover{
+    background-color: #025361;
+    cursor: pointer;
+}
+.checkbox{
+    text-align: left;
+    font-size: 1.8rem;
+    color: gray;
+    position: relative;
+    padding-left: .0rem;
+    margin-left: .0rem;
+}
+
+#services{
+    position: relative;
+    margin-left: 4.0rem;
+    float: left;
+    padding-right: 3.0rem;
+    margin-top: 2.5rem;
+}
+
+.page-nav{
+    margin-left: .0rem;
+    margin-right: .0rem;
+}
+.page-nav a{
+    position: relative;
+    margin-right: 12.5rem;
+    width: 15%;
+    font-size: 3.0rem;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight: 300;
+    text-decoration: none;
+    padding-top: 10.0rem;
+    padding-bottom: 2.5rem;
+    text-align: center;
+    color: rgb(92, 87, 87);
+}
+
+.page-nav a:not(.active) {
+        color: #576366;
+        border-bottom: .3rem solid #0f0f0f
+}
+.page-nav a.active, .page-nav a.active:hover, .page-nav a:hover {
+    color: #007e92;
+    border-bottom: .3rem solid #0098b1;
+}
+
+.flex-container-1{
+    box-sizing: content-box;
+    position: relative;
+    padding-right: .0rem;
+    margin-right: 40.0rem;
+    margin-bottom: .0rem;
+    padding-bottom: 4.0rem;
+    padding-top: 15.0rem;
+    margin-left: 20.0rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 120.0rem;
+    height: 25.0rem;
+    
+}
+
+.flex-container-2{
+    position: relative;
+    margin-right: 40.0rem;
+    margin-left: 20.0rem;
+    padding-top: 10.0rem;
+    margin-top: .0rem;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    width: 120.0rem;
+    height: 15.0rem;
+}
+
+.flex-item{
+    font-family: 'Gotham Rounded', sans-serif;
+    height: 35.0rem;
+    width: 60.0rem;
+    background-color: white;
+    color: #576366;
+}
+
+#flex-item-1{
+    padding-top: 12.5rem;
+    padding-right: 3.0rem;
+    text-align: left;   
+}
+#flex-item-2{
+    padding-top: 12.5rem;
+    padding-left: 1.0rem;
+    text-align: left;
+}
+
+#flex-item-3{
+    padding-top: 15.0rem;
+    padding-right: 3.0rem;
+    text-align: left;
+}
+#flex-item-4{
+    padding-top: 15.0rem;
+    padding-left: 1.0rem;
+    text-align: left;
+}
+
+.flex-item h2{
+    font-weight: 400;
+    font-size: 2.5rem;
+}
+.flex-item p{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.laptops{
+    background-image: url(laptop1.svg),url(laptop2.svg);
+    background-position: -4.0rem, right ;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 40.0rem;
+    margin-top: 15.0rem;
+}
+
+.text{
+    font-family:'Gotham Rounded', sans-serif ;
+    text-align: center;
+    position: relative;
+    margin-right: 30.0rem;
+    margin-left: 30.0rem;
+    padding-top: 5.0rem;
+    color: #40484a;
+}
+.text h1{
+    font-size: 4.0rem;
+    font-weight: 400;
+}
+.Sign{
+    padding: 1.5rem 4.0rem;
+    color: white;
+    border-radius: .4rem;
+    background-color: #008298;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-weight:400;
+    font-size: 1.5rem;
+}
+.Sign:hover{
+    background-color:#2a5d81 ;
+    cursor: pointer;
+}
+
+.tabs{
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: stretch;
+    font-family:'Gotham Rounded', sans-serif ;
+    font-size: 2.0rem;
+    color:rgb(92, 87, 87) ;
+    margin-left: 15.0rem;
+    margin-right: 15.0rem;
+    vertical-align: baseline;
+    margin-top: 10.0rem;
+    height: 100%;
+    position: relative;
+    
+}
+
+.flex-1,.flex-2,.flex-3 p{
+    font-weight: 300;
+}
+
+.flex-2{
+    padding-left: 5.0rem;
+    padding-right: 5.0rem;
+    padding-right: 5.0rem;
+}   
+
+.js{
+    background-image: url(treehousebg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+    background-size: contain;
+    height: 45.0rem;
+    width: 100%;
+    margin-top: 12.5rem;
+    position: absolute;
+    translate: -10.0rem, left ;
+}
+.js img{
+    padding-top: 7.5rem;
+    padding-left: 27.5rem;
+    width : 60%;
+    height: 30.0rem;
+}
+
+.flexcol{
+    display: flex;
+    flex-direction: row;
+    margin-top: 70.0rem;
+    font-family: 'Gotham Rounded', sans-serif;
+    border-bottom: .2rem solid #e8ebed;
+    padding-bottom: 5.0rem;
+}
+.flexcol-1{
+    margin-left: 20.0rem;
+    padding-right: 15.0rem;
+    font-size: larger;
+    height: 100%;
+    width: 85%;
+    color: #576366;
+}
+.flexcol-1 h1{font-weight: 400;
+    font-size: 4.0rem;
+}
+.flexcol-1 p{padding-top: 4.0rem;
+    padding-bottom: 4.0rem;
+    font-weight: 200;
+    font-size: 2.0rem;
+}
+.flexcol-2{ 
+    padding-right: 15.0rem;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr) ;
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 1.5rem;
+    width: 80%;
+    color: #576366;
+    font-weight: 300;
+}
+.flexcol-2 p{
+    padding-left: 1.0rem;
+}
+
+.grid{ 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    fill: #3f4850;
+    display: flex;
+    align-items: center;
+    border-bottom: .2rem solid #e8ebed;
+}
+
+.career-1{
+    display: flex;
+    flex-direction: row;
+    height: 15.0rem;
+    margin-top: 10.0rem;
+    position: relative;
+    margin-right: 10.0rem;
+    margin-left: 10.0rem;
+}
+
+.career-2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2.0rem;
+    height: 15.0rem;
+    position: relative;
+    margin-right: 10.0rem;
+    margin-left: 10.0rem;
+}
+.career-a{
+    padding-right: 20.0rem;
+    padding-top: 2.5rem;
+    border-right: .2rem solid #e8ebed;
+}
+.career-b{
+    padding-right: 20.0rem;
+    padding-top: 2.5rem;
+    border-right: .2rem solid #e8ebed;
+}
+
+.career h1{
+    text-align: center; 
+    position: relative;
+    font-family: 'Gotham Rounded', sans-serif ;
+    font-weight: 350;
+    font-size: 5.0rem;
+    padding-top: 5.0rem;
+    color: #576366;
+}
+.career-a img{
+    padding-left: 10.0rem;
+    padding-bottom: 10.0rem;
+    height: 10.0rem;
+    width: 100%;
+}
+.career-b img{
+    height: 10.0rem;
+    width: 100%;
+    padding-left: 10.0rem;
+    padding-bottom: 10.0rem;
+}
+.quiz{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10.0rem;
+    background-color: #3f4850;
+    margin-bottom: 20.0rem;
+    height: 60.0rem;
+
+}
+.quiz img{
+    margin-left: 17.5rem;
+    padding-top: 10.0rem;
+    width: 72.5rem;
+}
+.quiz-2{
+    margin-right: 7.5rem;
+}
+ .quiz-2 h1 {
+     font-size: 3.5rem;
+     color: white;
+     font-family: 'Gotham Rounded', sans-serif;
+     padding-left: 3.0rem;
+     padding-right: 4.0rem;
+     margin-top: 15.0rem;
+     font-weight: 400;
+ }
+ .quiz-2 p{ 
+    font-size: 2.0rem;
+    color: white;
+    font-family: 'Gotham Rounded', sans-serif;
+    padding-left: 3.0rem;
+    font-weight: 300;
+    padding-bottom: 2.0rem;
+}
+
+.take-quiz{
+    margin-left: 3.0rem;
+    font-size: 1.5rem;
+    font-family: 'Gotham Rounded', sans-serif;
+    color: #4b5658;
+    padding: 1.5rem 3.0rem;
+    background-color: #f0f0f0;
+    border-radius: .5rem;
+}
+.take-quiz:hover{
+    background-color: white;
+    color: #387bab;
+    cursor: pointer;
+}
+
+.inf{
+   background-image: url(https://static.teamtreehouse.com/assets/layouts/header-bg-0e6a992b193cbbf0ea2d9b2a00521d3d8aba1f47908c04dd57782e774c20f0f5.svg) ;
+   height: 70.0rem;
+   width: 100%;
+   background-size: contain;
+   font-family: 'Gotham Rounded', sans-serif;
+   color: #576366;
+   font-size: larger;
+   text-align: center;
+}
+
+.inf p{
+    padding-bottom: 5.0rem;
+}
+.cardbox{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin-left: 30.0rem;
+    padding-left: 7.5rem;
+    width: 50%;
+    height: 50.0rem;
+    border-radius: .3rem;
+    border: .1rem solid #e8ebed;
+}
+.cardbox-1{width: 100%;
+}
+.cardbox-1 img{
+    position: relative;
+    height:50.0rem;
+    width: 25.0rem;
+    float: left;
+}
+.cardbox-2{
+    padding-right: 5.0rem;
+    padding-left: 5.0rem;
+    text-align: left;
+}
+
+.cardbox-2 h1{
+    padding-top: 5.0rem;
+    color: #576366;
+    font-size: 2.5rem;
+}
+.cardbox-2 h5{
+    padding-bottom: 2.0rem;
+    font-size: 1.5rem;
+    color: #7b8b8e ;
+    line-height: .0rem;
+}
+
+.cardbox-2 p{
+    color: #576366;
+    font-size: 1.7rem;
+    font-weight: 300;
+}
+.button{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 1.5rem;
+    border-radius:.4rem;
+    padding: 1.5rem 4.0rem;
+    background: #008298;
+    color: white;
+}
+.button:hover{
+    background-color: #025361;
+}
+.content{
+    width: 100.0rem;
+    margin-left: 30.0rem;
+}
+.questions{
+    padding-top: 10.0rem;
+    height: 80.0rem;
+    width: 100%;
+    background-color: #e8ebed;
+    font-family:'Gotham Rounded', sans-serif ;
+    line-height: 6.0rem;
+    font-size: 2.0rem;
+    font-weight: 500;
+    border-bottom: .3rem solid aqua;
+}
+.questions h1{
+    padding-left: 12.5rem;
+    color: #576366;
+}
+.qna p{
+    width: 80%;
+    margin-left: 12.5rem;
+    font-family:'Gotham Rounded', sans-serif ;
+    font-weight: 500;
+    font-size: 1.5rem;
+    border-bottom: .1rem solid #7b8b8e;
+    color :#7b8b8e;
+}
+.qnabut{margin-left: 60.0rem;
+    padding-top: 5.0rem;
+}
+.but{
+    font-family: 'Gotham Rounded', sans-serif;
+    font-size: 1.7rem;
+    margin-top: .0rem;
+    margin-bottom: 2.0rem;
+    margin-right: 4.0rem;
+    border-radius:.4rem;
+    padding: 1.5rem 4.0rem;
+    background: #008298;
+    color: white;
+}
+.but:hover{
+    background-color: #025361;
+    cursor: pointer;
+}
+.contact{
+    display: flex;
+    flex-direction: row;
+    width: 80.0rem;
+    height: 30.0rem;
+}
+.flexblock-1{
+    
+    width: 30.0rem;
+    margin-top: 10.0rem;
+    margin-left: 15.0rem;
+}
+.flexblock-1 img{
+    width: 4.0rem;
+    height: 4.0rem;
+    float: left;
+}
+.flexblock-1 p{
+    width: 25.0rem;
+}
+.flexblock-2 table{
+    column-width: 100%;
+    column-gap: 15rem ;
+    margin-top: 10.0rem;
+    text-align: center;
+    width: 49.0rem;
+    margin-left: 20.0rem;
+    margin-right: 12.5rem;
+    font-family: 'Gotham Rounded', sans-serif ;
+    font-size: 1.5rem;
+    font-weight: 350;
+    color: #0098b1;
+    padding-bottom: 2.5rem;
+}
+.flexblock-2 tr{
+    height: 8.0rem;
+}
+
+.fa{ 
+    margin-right: .0rem;
+    margin-left: .0rem;
+    display: flex;
+    flex-direction: row;
+    margin-top: 12.5rem;
+    margin-bottom: 15.0rem;
+    font-size: 1.2rem;   
+  }
+
+.fa-facebook {  
+    margin-right: 1.0rem;
+    height: 1.0rem;
+    padding: 2.0rem;
+    border-radius: 50%;
+    background: #576366; 
+    color: white;
+    fill: white;
+  }  
+.fa-twitter {  
+    margin-right: 1.0rem;
+    height: 1.0rem;
+    padding: 2.0rem;
+    border-radius: 50%;
+    background: #576366; 
+    color: white;  
+    fill: white;
+  }  
+.fa-youtube {  
+    margin-right: 1.0rem;
+    height: 1.0rem;
+    padding: 2.0rem;
+    border-radius: 50%;
+    background: #576366;   
+    color: white; 
+    fill: white; }
+.fa-linkedin {
+    margin-right: 1.0rem;  
+    height: 1.0rem;
+    padding: 2.0rem;
+    border-radius: 50%;
+    background: #576366;  
+    color: white  ;  
+    fill: white;
+  }  
+.fa-instagram {
+    margin-right: 1.0rem;
+    height: 1.0rem;
+    padding: 2.0rem;
+    border-radius: 50%;
+    background: #576366;  
+    color: white;  
+    fill: white;
+  }  
+
+
+  @media (max-width:600px)
+  {
+      .navbar{
+          width: 100%;
+      }
+       html{
+           font-size: 0.6vw;
+       }
+       
+       .input{
+           width: 20rem;
+       }
+       .image h1{
+           font-size: 1.5rem;
+           padding-bottom: 10rem;
+           width: 20%;
+           
+       }
+       .image h2 {
+           opacity: 0;
+           visibility: hidden;
+       }
+    .flex-container-1{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        height: 125rem;
+    }
+    .flex-container-2{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        height: 125rem;
+        width: 50%;
+    }
+    #flex-item-1, #flex-item-2, #flex-item-3, #flex-item-4 {
+        padding: 0rem;
+        margin-bottom: 5rem;
+    }
+    .tabs{
+        display: flex;
+        flex-direction: column;
+        height: 300rem;
+        width: 50%;
+    }
+    .flex-3,.flex-2,.flex-1{
+        position: relative;
+        height: 100rem;
+        width: 50%;
+        padding-bottom: 10rem;  
+    }
+    .flex-3{
+        padding-bottom: 20rem;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+    }
+    .fa{
+        margin-left: 15rem;
+    }
+    .flexblock-2{
+        margin-left: 10rem;
+    }
+    .flexblock-2 table {
+        column-width: 5rem !important;
+        margin-left: 0rem;
+
+    }
+  }
+ 
